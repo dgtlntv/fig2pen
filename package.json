@@ -1,0 +1,19 @@
+{
+    "name": "fig2pen",
+    "version": "1.0.0",
+    "description": "Node cli tool to bulk export from figma and bulk import into penpot.",
+    "main": "bin/index.js",
+    "bin": {
+        "fig2pen": "./bin/index.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "exports": "./bin/index.js",
+    "type": "module",
+    "author": "Max Blazek",
+    "license": "ISC",
+    "dependencies": {
+        "yargs": "^17.7.2"
+    }
+}
